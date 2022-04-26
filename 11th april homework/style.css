@@ -19,3 +19,6 @@ table{
 .right{
     text-align: right;
 }
+.pics>td{
+     width:33.33%
+}
