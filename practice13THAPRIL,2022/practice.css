@@ -1,0 +1,24 @@
+div>a{
+    float:left;
+    text-decoration: none;
+    border:none;
+    border-spacing: 0px;
+    width: 33%;
+    text-align:center;
+    background-color: darkgray;
+    color: white;
+}
+.home{
+    background-color: green;
+}
+
+@media screen and (max-width:600px){
+    div>a{
+        width: 100%;
+        background-color: lightgray;
+    }
+    .home{
+        background-color: aquamarine;
+    }
+    
+}
