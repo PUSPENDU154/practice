@@ -1,16 +1,26 @@
 div>a{
+    display: block;
     float:left;
     text-decoration: none;
     border:none;
     border-spacing: 0px;
-    width: 33%;
+    width: 25%;
     text-align:center;
     background-color: darkgray;
     color: white;
+    padding: 12px 0px;
+    overflow: hidden;
 }
 .home{
     background-color: green;
 }
+.active{
+    float: right;
+    background-color: burlywood;
+}
+a:hover:not(.active){
+    background-color: blueviolet;
+} 
 
 @media screen and (max-width:600px){
     div>a{
@@ -19,6 +29,9 @@ div>a{
     }
     .home{
         background-color: aquamarine;
+    }
+    .active{
+        background-color: chartreuse;
     }
     
 }
