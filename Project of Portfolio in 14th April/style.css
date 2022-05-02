@@ -1,0 +1,125 @@
+:root{
+    --globalcolor:rgb(54, 126, 150);
+}
+body{
+    text-align: center;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.first-container{
+  background-color: rgb(206, 240, 228);  
+  position: relative;
+  padding: 100px;
+
+}
+
+h1,h2{
+  color: var(--globalcolor);  
+  font-weight: normal;
+}
+h1{
+    font-size: 4em;
+}
+h2{
+    font-size: 1.5em;
+    font-family: 'Quicksand', sans-serif;
+}
+.upperCloud{
+    position: absolute;
+    right:40%;
+}
+.lowercloud{
+    position: absolute;
+    left:25%;
+    bottom:30%;
+}
+.mountain{
+    position: relative;
+    top:20px;
+}
+.profile img{
+    width: 250px;
+    border-radius: 50%;
+    margin:5px;
+}
+.fa-heart{
+    color: red;
+}
+hr{
+    border: dotted lightblue 6px; border-bottom: none; 
+    width: 10%;
+}
+.second-container{
+    margin: 100px 0;
+}
+.skillset{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+.ml-img,.code-img{
+    float: left;
+    width:200px;
+    margin-left: 10px;
+    margin-right: 20px;
+    position: relative;
+    top:15px;
+}
+.netflix-img{
+    float:right;
+    width:150px;
+    margin-left: 30px;
+    position: relative;
+    top:15px;
+}
+h3{
+    font-family: 'My Soul', cursive;
+    font-family: 'Tapestry', cursive;
+    font-size: 30px;
+    color: aqua;   
+}
+.skillset>p{
+    font-family: 'Lobster', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: rgb(27, 20, 20);
+}
+.last-content{
+    margin: 100px 0;
+}
+.here{
+    margin: 40px auto 60px;
+    width: 33%;
+    font-size: 20px;
+    color: rgb(216, 128, 219);
+}
+.btn{
+    background-color:rgb(5, 214, 214); 
+    color: #ffffff;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 40px;
+}
+.btn:hover{
+    background-color: rgb(0, 196, 196); 
+}
+a:hover{
+    color: black;
+}
+.content-finish{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+.content-finish a{
+    margin: 0 20px;
+    color: #ffffff;
+}
+.insta{
+    display: block;
+    padding: 10px 0;
+    position: relative;
+    top: 10px;
+}
